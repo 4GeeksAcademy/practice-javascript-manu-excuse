@@ -1,5 +1,23 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-}
+  body {
+        background: #f4f6f9;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .card {
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease all;
+      }
+      .card:hover {
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+      }
+      #excuse {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #333;
+      }
